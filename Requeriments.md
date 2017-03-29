@@ -13,9 +13,9 @@
 
 ## 2. Historias de usuario.
 
-+ [ ] Como usuario, quiero ver una tabla de 11 celdas por 11 celdas de longitud fija y rectangular (12 píxeles de alto por 16 píxeles de ancho). La primera fila estará identificada con letras alusivas a las columnas (de la A a la J) y la primera columna estará identificada con números alusivos a las filas (del 1 al 10). La celda de la esquina superior izquierda no estará identificada.
++ [ ] Como usuario, quiero ver una tabla de 11 celdas por 11 celdas de longitud fija y rectangular (de 12 píxeles de alto). La primera fila estará identificada con letras alusivas a las columnas (de la A a la J) y la primera columna estará identificada con números alusivos a las filas (del 1 al 10). La celda de la esquina superior izquierda no estará identificada.
 + [ ] Como usuario, quiero que no sea permitida la selección de letras o de números en la fila y la columna identificadora de las celdas.
-+ [ ] Como usuario, quiero que cada celda no identificadora contenga un campo editable, cuyo texto estará alineado siempre a la derecha de la celda.
++ [ ] Como usuario, quiero que cada celda no identificadora contenga un campo editable (con 100% de ancho por defecto no modificable), cuyo texto estará alineado siempre a la derecha de la celda.
 + [ ] Como usuario, quiero que en cada celda sólo se puedan ingresar los caracteres de la A a la Z en mayúsculas, los números del 0 al 9, un caracter de punto `.` y paréntesis `()` así como el símbolo `=` y los símbolos de operaciones aritméticas `+`, `-`, `*`, `/`.
 + [ ] Como usuario, quiero poder realizar operaciones aritméticas básicas (suma, resta, producto y división) entre celdas, valiéndose de reglas matemáticas formales, así como también la modificación de la precedencia de dichas operaciones usando sólo paréntesis `()`, para lograr dicho comportamiento, se debe indicar explícitamente que se trata de una operación matemática, precediendo la expresión con el signo de `=`.
 + [ ] Como usuario, quiero poder ejecutar la suma de un rango de celdas especificando la siguiente expresión: `=SUMA(celda:celda)` y que al presionar la tecla enter, dicha operación sea realizada.
